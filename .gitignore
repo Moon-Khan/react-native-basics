@@ -2,6 +2,13 @@
 #
 .DS_Store
 
+# bundle folder
+*.bundle/
+
+# test file
+*__tests__/
+
+
 # Xcode
 #
 build/
@@ -37,6 +44,7 @@ local.properties
 # node.js
 #
 node_modules/
+*lock.json
 npm-debug.log
 yarn-error.log
 
